@@ -1,0 +1,19 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "learning cypress automation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corbatsh/cypressAutomation.git"
+  },
+  "author": "Kamil Bortlik",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corbatsh/cypressAutomation/issues"
+  },
+  "homepage": "https://github.com/corbatsh/cypressAutomation#readme"
+}
