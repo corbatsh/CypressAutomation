@@ -4,6 +4,9 @@ describe('Browser actions', () => {
         cy
             .url()
             .should('include','index.html')
+        cy.log('Before Reload')
+        cy.reload()
+        cy.log('After Reload')
     })
 
     it('should click on Travel category', () => {
