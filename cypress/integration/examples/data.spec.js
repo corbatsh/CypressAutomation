@@ -1,6 +1,6 @@
 describe('Write / Read data to JSON / Text file', () => {
     it('Should write data into JSON', () => {
-        cy.writeFile('log.json', { name: 'Mike', age: 25 })
+        cy.writeFile('log.json', {name: 'Mike', age: 25})
     })
 
     it('Should write data to the text file', () => {
@@ -28,7 +28,8 @@ describe('Write / Read data to JSON / Text file', () => {
             .its('contentType')
             .should('eq', 'text/html')
 
-        cy.document()
+        cy
+            .document()
             .should('have.property', 'charset')
             .and('eq', 'UTF-8')
     })
